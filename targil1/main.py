@@ -18,7 +18,7 @@ def check_triangle():
 #  ==================================================
 
 #  ================== QUESTION TWO ==================
-
+# In the main there is call for the menu from the other file
 #  ==================================================
 # Function to find two middle numbers using sorted method
 def middle_two_sorted(nums):
