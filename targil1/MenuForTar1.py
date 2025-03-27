@@ -1,7 +1,7 @@
 #
 #  Example program for Targil 1
 import math
-import random
+
 
 # פונקציות לחישוב שטחים ונפחים
 def rectangle_area(w, h):
