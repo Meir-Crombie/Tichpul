@@ -19,7 +19,7 @@ def check_triangle():
 
 #  ================== QUESTION TWO ==================
 # In the main there is call for the menu from the other file
-#  ==================================================
+#  ================== QUESTION THREE ==================
 # Function to find two middle numbers using sorted method
 def middle_two_sorted(nums):
     nums.sort()
@@ -68,8 +68,8 @@ def get_middle_from_mixed_list():
     else:
         print("List must have an even number of numeric values.")
 # ====================================================
+#  ================== QUESTION FOUR ==================
 
-#  ================== QUESTION THREE ==================
 # Functions for binary number shift operations
 def shiftL(binNr, N):
     return binNr[N:] + '0' * N
@@ -117,7 +117,7 @@ def shift_operations_menu():
             print("Invalid choice")
 # ====================================================
 
-#  ================== QUESTION FOUR ==================
+#  ================== QUESTION FIVE ==================
 # Function to count types of elements in a list
 def count_types(lst):
     type_counts = {}
@@ -133,7 +133,7 @@ def list_types():
     print(count_types(lst))
 # ====================================================
 
-#  ================== QUESTION FIVE ==================
+#  ================== QUESTION SIX ==================
 # Function to test guessing game
 def nihushTest(target, guess):
     if len(target) != len(guess):
@@ -178,7 +178,7 @@ def guess_game():
     print(f"\nRandom numbers selected at the start: {target}")
     print(f"Maximum success percentage in the game: {maxpct:.1f}%")
 # ====================================================
-
+#  ================== QUESTION MAIN ==================
 # Main function to run all exercises
 def main():
     options = [check_triangle,menu_shapes, get_middle_numbers, get_middle_numbers_list, get_middle_from_mixed_list,
