@@ -1,7 +1,6 @@
 # Meir Crombie - 214736688
 # Yedidia Bakuradze - 332461854
-from targil1.MenuForTar1 import menu_shapes
-
+from MenuForTar1 import menu_shapes
 
 #  ================== QUESTION ONE ==================
 # Function to check if given sides can form a valid triangle
@@ -128,9 +127,15 @@ def count_types(lst):
 
 # Function to demonstrate type counting
 def list_types():
-    print('Pls')
-    lst = [1, 2, 'a', (11, 2, 'b'), [22, 'c'], (33,), ['d'], 'e']
-    print(count_types(lst))
+    # Input: List containing integers, strings, tuples, and lists
+    try:
+        user_input = eval(input("Enter an array of values: \n>>> "))
+    except SyntaxError:
+        print("Provide non empty input")
+        return
+
+    # Count the types in the list
+    print(count_types(user_input))
 # ====================================================
 
 #  ================== QUESTION SIX ==================
