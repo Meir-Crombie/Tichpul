@@ -60,7 +60,8 @@ def q1():
 		if n2<n1 :
 			print("ERROR: the values must be positive integers and n2 > n1")
 			exit()
-		list(map(lambda x: print(x,end="") ,pentaNumRange(n1,n2)))
+		list(map(lambda x: print(x,end=" ") ,pentaNumRange(n1,n2)))
+		print("")
 	
 	printAllPentalNumbers()
 
@@ -144,7 +145,7 @@ def main():
 	while True:
 		print("your choices:")
 		for (i,s) in enumerate(lstrs):
-			print(i, " : ", s)
+			print(i+1, " : ", s)
 		print("Press 0 to exit")
 		c = int(input("please enter your choice >>> "))
 		if c==0:
