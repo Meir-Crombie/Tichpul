@@ -1,7 +1,5 @@
-"""
-שיפור קוד מחדש כך שיהיה תואם לקוד המקורי של Dvir Diei ו-Oriya Hanuka
-הקוד משמר את האלגוריתמים המקוריים בכל חמש השאלות
-"""
+#Meir Crombie | 214736688
+#Yedidia Bakuradze | 332461854
 
 # Function to generate pentagonal numbers in a range using recursion
 def pentaNumRagnge1(n1, n2):
